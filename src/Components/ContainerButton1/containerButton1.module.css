@@ -1,0 +1,119 @@
+.container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr /1fr;
+    grid-template-areas: 
+        "row1"
+        "row2"
+        "row3";
+    height: 1155px;
+}
+
+.row1 {
+    display: grid;
+    grid-area: row1;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-template-areas: "buttonContainer1 buttonContainer2 buttonContainer3";
+}
+
+.buttonContainer1 {
+    display: grid;
+    grid-area: buttonContainer1;
+}
+
+.buttonContainer2 {
+    display: grid;
+    grid-area: buttonContainer2;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonContainer3 {
+    display: grid;
+    grid-area: buttonContainer3;
+}
+
+.button3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row2 {
+    display: grid;
+    grid-area: row2;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-template-areas: "buttonContainer4 buttonContainer5 buttonContainer6";
+}
+
+.buttonContainer4 {
+    display: grid;
+    grid-area: buttonContainer4;
+}
+
+.button4 {
+    display: flex;
+    align-items: center;
+}
+
+.buttonContainer5 {
+    display: grid;
+    grid-area: buttonContainer5;
+}
+
+.button5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonContainer6 {
+    display: grid;
+    grid-area: buttonContainer6;
+}
+
+.button6 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.row3 {
+    display: grid;
+    grid-area: row3;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-template-areas: "buttonContainer7 buttonContainer8 buttonContainer9";
+}
+
+.buttonContainer7 {
+    display: grid;
+    grid-area: buttonContainer7;
+}
+
+.button7 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.buttonContainer8 {
+    display: grid;
+    grid-area: buttonContainer8;
+}
+
+.button8 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.buttonContainer9 {
+    display: grid;
+    grid-area: buttonContainer9;
+}
+
+.button9 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
